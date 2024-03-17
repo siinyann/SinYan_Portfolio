@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sono&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+body {
+    background-color: #121212 !important;
+    color: #fff !important;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 99vw;
+    background: radial-gradient(at 18% 99%, #FF69B4 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 97% 8%, #00FF7F 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 79% 82%, #E0B0FF 0px, transparent 50%) repeat scroll 0% 0%,
+                radial-gradient(at 96% 10%, #FF69B4 0px, transparent 50%) repeat scroll 0% 0%,    
+                radial-gradient(at 42% 20%, #87CEEB 0px, transparent 50%) repeat scroll 0% 0%,
+                radial-gradient(at 4% 49%, #FF69B4 0px, transparent 50%) repeat scroll 0% 0%, 
+                rgba(0, 0, 0, 0) 
+                radial-gradient(at 57% 33%, #FF69B4 0px, #E0B0FF 50%) repeat scroll 0% 0%;
+} 
+  
+.title {
+    /* color: black; */
+    font-size: 10em; /* Adjust the font size as needed */
+    font-family: 'Recursive', sans-serif; /* Choose a suitable font-family */
+}
+  
+button {
+    outline: none;
+}
+
+i, #navbar-logo {
+    color: #DE3163;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0px;
+    text-align: center;
+    color: #DE3163 !important;
+}
+
+p {
+    font-family: 'Sono', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.introduction {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skill-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-sm-2 h6 {
+    border-radius: 25px;
+    background: #A37BFA;
+    padding-top: 15px;
+    width: 200px;
+    height: 50px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 32px 20px 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-container .img {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.project-container .text {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.project-container .text h2{
+    color: #A37BFA;
+}
+
+.project-container .text h4{
+    color: #40E0D0;
+}
+
+.button {
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+  
+a {
+    text-decoration: none; /* Remove underline */   
+}
+
+.button1 {
+    background-color: #DE3163;
+}
+
+.button2 {
+    background-color: #0096FF;
+    border: none; /* Remove border */
+}
+
+a {
+    text-decoration: none;
+}
