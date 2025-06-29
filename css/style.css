@@ -1,195 +1,197 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sono&family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sono&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
 
 body {
-    background-color: #121212 !important;
-    color: #fff !important;
-    overflow-x: hidden;
+  background-color: #121212 !important;
+  color: #fff !important;
+  overflow-x: hidden;
 }
 
 .css-selector {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 99vw;
-    background: linear-gradient(308deg, #E0B0FF, #87CEEB, #87CEEB, #E0B0FF);
-    background-size: 800% 800%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 99vw;
+  background: linear-gradient(308deg, #e0b0ff, #87ceeb, #87ceeb, #e0b0ff);
+  background-size: 800% 800%;
 
-    -webkit-animation: AnimationName 10s ease infinite;
-    -moz-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 44%}
-    50%{background-position:100% 57%}
-    100%{background-position:0% 44%}
+  0% {
+    background-position: 0% 44%;
+  }
+  50% {
+    background-position: 100% 57%;
+  }
+  100% {
+    background-position: 0% 44%;
+  }
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 44%}
-    50%{background-position:100% 57%}
-    100%{background-position:0% 44%}
+  0% {
+    background-position: 0% 44%;
+  }
+  50% {
+    background-position: 100% 57%;
+  }
+  100% {
+    background-position: 0% 44%;
+  }
 }
 @keyframes AnimationName {
-    0%{background-position:0% 44%}
-    50%{background-position:100% 57%}
-    100%{background-position:0% 44%}
+  0% {
+    background-position: 0% 44%;
+  }
+  50% {
+    background-position: 100% 57%;
+  }
+  100% {
+    background-position: 0% 44%;
+  }
 }
 
-/* .background {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 99vw;
-    background: radial-gradient(at 18% 99%, #FF69B4 0px, transparent 50%) repeat scroll 0% 0%, 
-                radial-gradient(at 97% 8%, #00FF7F 0px, transparent 50%) repeat scroll 0% 0%, 
-                radial-gradient(at 79% 82%, #E0B0FF 0px, transparent 50%) repeat scroll 0% 0%,
-                radial-gradient(at 96% 10%, #FF69B4 0px, transparent 50%) repeat scroll 0% 0%,    
-                radial-gradient(at 42% 20%, #87CEEB 0px, transparent 50%) repeat scroll 0% 0%,
-                radial-gradient(at 4% 49%, #FF69B4 0px, transparent 50%) repeat scroll 0% 0%, 
-                rgba(0, 0, 0, 0) 
-                radial-gradient(at 57% 33%, #FF69B4 0px, #E0B0FF 50%) repeat scroll 0% 0%;
-}  */
-  
 .title {
-    color: #fff;
-    font-size: 10em; /* Adjust the font size as needed */
-    font-family: 'Recursive', sans-serif; /* Choose a suitable font-family */
-}
-  
-button {
-    outline: none;
+  color: #fff;
+  font-size: 10em; /* Adjust the font size as needed */
+  font-family: "Recursive", sans-serif; /* Choose a suitable font-family */
 }
 
-i, #navbar-logo {
-    color: #DE3163;
+button {
+  outline: none;
+}
+
+i,
+#navbar-logo {
+  color: #de3163;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0px;
-    text-align: center;
-    color: #DE3163 !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0px;
+  text-align: center;
+  color: #de3163 !important;
 }
 
 p {
-    font-family: 'Sono', sans-serif;
-    font-size: 18px;
-    text-align: center;
+  font-family: "Sono", sans-serif;
+  font-size: 18px;
+  text-align: center;
 }
 
 .introduction {
-    margin: 20px;
+  margin: 20px;
 }
 
 .skill-container {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .col-sm-2 h6 {
-    border-radius: 25px;
-    background: #A37BFA;
-    padding-top: 15px;
-    width: 200px;
-    height: 50px;
-    font-size: 18px;
+  border-radius: 25px;
+  background: #a37bfa;
+  padding-top: 15px;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
 }
 
 .project-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 32px 20px 32px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 32px 20px 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .project-container .img {
-    margin-right: 10px;
-    margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .project-container .text {
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-.project-container .text h2{
-    color: #A37BFA;
+.project-container .text h2 {
+  color: #a37bfa;
 }
 
-.project-container .text h4{
-    color: #40E0D0;
+.project-container .text h4 {
+  color: #40e0d0;
 }
 
 .button {
-    border: none;
-    border-radius: 25px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    margin-right: 20px;
-    cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  margin-right: 20px;
+  cursor: pointer;
 }
-  
+
 a {
-    text-decoration: none; /* Remove underline */   
+  text-decoration: none; /* Remove underline */
 }
 
 .button1 {
-    background-color: #DE3163;
+  background-color: #de3163;
 }
 
 .button1:hover {
-    color: #40E0D0;
+  color: #40e0d0;
 }
 
 .button2 {
-    background-color: #0096FF;
-    border: none; /* Remove border */
+  background-color: #0096ff;
+  border: none; /* Remove border */
 }
 
 .button2:hover {
-    color: #40E0D0;
+  color: #40e0d0;
 }
 
 .to-top {
-    background: white;
-    /* background: #DE3163; */
-    position: fixed;
-    bottom: 16px;
-    right:32px;
-    width:50px;
-    height:50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size:32px;
-    color:#1f1f1f;
-    text-decoration: none;
-    opacity:0;
-    pointer-events: none;
-    transition: all .4s;
-  }
-  
-  .to-top.active {
-    bottom:32px;
-    pointer-events: auto;
-    opacity:1;
-  }
+  background: white;
+  /* background: #DE3163; */
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #1f1f1f;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
 
 /* a.to-top i.fas.fa-chevron-up {
   color: red; 
