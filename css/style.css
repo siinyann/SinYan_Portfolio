@@ -5,6 +5,7 @@ body {
   background-color: #121212 !important;
   color: #fff !important;
   overflow-x: hidden;
+  width: 100%;
 }
 
 html {
@@ -60,11 +61,11 @@ html {
   }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .project-container {
     padding: 0 10px;
   }
-}
+} */
 
 @media (min-width: 360px) {
   .skill-container .col-12 h6 {
@@ -80,7 +81,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 20px;
   }
 }
 
@@ -94,6 +95,19 @@ button {
   outline: none;
 }
 
+#about,
+#skills,
+#projects,
+#contact {
+  scroll-margin-top: 70px; /* Adjust 70px to your navbar height */
+}
+
+.navbar{
+  overflow: hidden;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
 i,
 #navbar-logo {
   color: #de3163;
@@ -101,7 +115,7 @@ i,
 }
 
 a.nav-link {
-  color: #de3163 !important;
+  color: #de3163;
   font-family: "Recursive", sans-serif;
   font-size: 20px;
 }
@@ -125,7 +139,6 @@ p {
 
 .skill-container {
   text-align: center;
-  margin-top: 20px;
 }
 
 .col-sm-2 h6 {
@@ -179,7 +192,7 @@ p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   margin: 4px 2px;
   margin-right: 20px;
   cursor: pointer;
@@ -193,16 +206,16 @@ a {
   background-color: #de3163;
 }
 
-.button1:hover {
-  color: #40e0d0;
-}
-
 .button2 {
   background-color: #0096ff;
-  border: none; /* Remove border */
 }
 
-.button2:hover {
+.button1:hover,
+.button2:hover,
+h6:hover,
+a.nav-link:hover,
+#navbar-logo:hover,
+i:hover {
   color: #40e0d0;
 }
 
