@@ -61,11 +61,11 @@ html {
   }
 }
 
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
   .project-container {
     padding: 0 10px;
   }
-} */
+}
 
 @media (min-width: 360px) {
   .skill-container .col-12 h6 {
@@ -82,6 +82,15 @@ html {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+  }
+
+  .project-container {
+    padding: 0 30px;
+  }
+
+  .button1,
+  .button2 {
+    margin: auto;
   }
 }
 
@@ -102,7 +111,7 @@ button {
   scroll-margin-top: 70px; /* Adjust 70px to your navbar height */
 }
 
-.navbar{
+.navbar {
   overflow: hidden;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
