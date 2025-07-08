@@ -12,6 +12,18 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .css-selector {
   display: flex;
   flex-direction: column;
@@ -61,9 +73,20 @@ html {
   }
 }
 
-@media (max-width: 576px) {
-  .project-container {
-    padding: 0 10px;
+/* Make sure nav items and icons are left-aligned on mobile */
+@media (max-width: 991px) {
+  .navbar-nav {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .icon-group {
+    margin-top: 10px;
+    align-items: flex-start;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 0.5rem;
   }
 }
 
@@ -91,6 +114,10 @@ html {
   .button1,
   .button2 {
     margin: auto;
+  }
+
+  body {
+    width: 100%;
   }
 }
 
@@ -251,4 +278,27 @@ i:hover {
   bottom: 32px;
   pointer-events: auto;
   opacity: 1;
+}
+
+/* Fix horizontal scrolling issue */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Ensure navbar spans full width and doesn't overflow */
+.navbar {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.nav-button a {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
 }
