@@ -40,7 +40,7 @@ body {
   animation: AnimationName 10s ease infinite;
 }
 
-.skill-container .col-12 h6 {
+/* .skill-container .col-12 h6 {
   width: 90%;
   margin: auto;
   border-radius: 25px;
@@ -54,6 +54,38 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+} */
+
+.skill-container-two .row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-container-two .col-12 {
+  border-radius: 25px;
+  background: #a37bfa;
+  padding: 25px;
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
+}
+
+.skill-container-two .col-12 h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #FFD700;
+  margin: 0 0 15px 0;
+  font-weight: 600;
+}
+
+.skill-container-two .col-12 h5 {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin: 10px 0;
+  font-weight: 500;
 }
 
 @-webkit-keyframes AnimationName {
